@@ -18,7 +18,7 @@ public class Login {
 
 	@FindBy(xpath = "//button[@data-lid='hdr_signin']")
 	WebElement acnt;
-	@FindBy(xpath = "(//a[@role='button'])[2]")
+	@FindBy(xpath = "//a[text()='Sign In']")
 	WebElement login;
 	@FindBy(xpath = "//input[@type='email']")
 	WebElement useremail;
